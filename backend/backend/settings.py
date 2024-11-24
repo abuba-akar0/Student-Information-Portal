@@ -19,18 +19,16 @@ load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('secret_key')
+SECRET_KEY = '_#0*r2nq!8pbtndfxb1j$x)32xf-=7t*)hsoma34^(4n+%bjy8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
 
 # Application definition
 
@@ -41,18 +39,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'questionnaire',
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
     'django_filters',
-
+    'universities',
+    'scholarships',
     'api.apps.ApiConfig',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware', # This must be place above all the other middleware
-
+    'corsheaders.middleware.CorsMiddleware',  # This must be place above all the other middleware
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -82,21 +81,19 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'backend.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.environ.get('db_name'), 
-        'USER': os.environ.get('db_user'), 
-        'PASSWORD': os.environ.get('db_password'),
-        'HOST': os.environ.get('db_host'), 
-        'PORT': os.environ.get('db_port'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'webportal',  # Replace with your database name
+        'USER': 'root',  # Replace with your database user
+        'PASSWORD': '@Rakabuba2274',  # Replace with your database password
+        'HOST': 'localhost',  # Replace with your database host
+        'PORT': '3306',  # Replace with your database port
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -116,7 +113,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
@@ -130,7 +126,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
@@ -141,7 +136,7 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = (
-       'http://localhost:3000',
+    'http://localhost:3000',
 )

@@ -1,9 +1,5 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /frontend/node_modules
-/frontend//.pnp
-/frontend/.pnp.js
 
 # testing
 /frontend/coverage
@@ -22,5 +18,10 @@
 /frontend/yarn-debug.log*
 /frontend/yarn-error.log*
 
-# Django Stuffs
-.env
+# Python
+__pycache__/
+*.py[cod]
+*.env
+*.venv
+env/
+venv/

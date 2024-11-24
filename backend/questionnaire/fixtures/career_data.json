@@ -1,0 +1,193 @@
+[
+  {
+    "model": "questionnaire.careerquestion",
+    "fields": {
+      "question_text": "What type of work do you enjoy most?",
+      "choices": {
+        "A": "Solving technical problems",
+        "B": "Helping people improve their health",
+        "C": "Creating art or designs",
+        "D": "Teaching and sharing knowledge"
+      }
+    }
+  },
+  {
+    "model": "questionnaire.careerquestion",
+    "fields": {
+      "question_text": "Which subject do you prefer?",
+      "choices": {
+        "A": "Mathematics",
+        "B": "Biology",
+        "C": "History",
+        "D": "Computer Science"
+      }
+    }
+  },
+  {
+    "model": "questionnaire.careerquestion",
+    "fields": {
+      "question_text": "What is your ideal working environment?",
+      "choices": {
+        "A": "Office with tech gadgets",
+        "B": "Hospital or clinic",
+        "C": "Art studio or theater",
+        "D": "School or university"
+      }
+    }
+  },
+  {
+    "model": "questionnaire.careerquestion",
+    "fields": {
+      "question_text": "Which skill are you most interested in developing?",
+      "choices": {
+        "A": "Programming and software development",
+        "B": "Medical and healthcare",
+        "C": "Creative arts and design",
+        "D": "Teaching and mentoring"
+      }
+    }
+  },
+  {
+    "model": "questionnaire.careerquestion",
+    "fields": {
+      "question_text": "Do you prefer working with people or independently?",
+      "choices": {
+        "A": "With a team and others",
+        "B": "Independently"
+      }
+    }
+  },
+  {
+    "model": "questionnaire.careerquestion",
+    "fields": {
+      "question_text": "How do you prefer to solve problems?",
+      "choices": {
+        "A": "With logical analysis",
+        "B": "By researching and applying knowledge",
+        "C": "Through creative thinking",
+        "D": "By collaborating with others"
+      }
+    }
+  },
+  {
+    "model": "questionnaire.careerquestion",
+    "fields": {
+      "question_text": "What type of tasks would you enjoy doing every day?",
+      "choices": {
+        "A": "Designing and coding",
+        "B": "Diagnosing and treating patients",
+        "C": "Creating art or graphic designs",
+        "D": "Teaching students or managing a classroom"
+      }
+    }
+  },
+  {
+    "model": "questionnaire.careerquestion",
+    "fields": {
+      "question_text": "How important is job security for you?",
+      "choices": {
+        "A": "Very important",
+        "B": "Somewhat important",
+        "C": "Not very important"
+      }
+    }
+  },
+  {
+    "model": "questionnaire.careerquestion",
+    "fields": {
+      "question_text": "Would you prefer a career that involves constant learning?",
+      "choices": {
+        "A": "Yes",
+        "B": "No"
+      }
+    }
+  },
+  {
+    "model": "questionnaire.careerquestion",
+    "fields": {
+      "question_text": "What kind of impact do you want to make?",
+      "choices": {
+        "A": "Technological advancements",
+        "B": "Improving health and wellness",
+        "C": "Art and culture development",
+        "D": "Education and social change"
+      }
+    }
+  },
+  {
+    "model": "questionnaire.careerrecommendation",
+    "fields": {
+      "career_name": "Software Developer",
+      "description": "Design and develop software applications and systems.",
+      "criteria": {
+        "1": "A",
+        "2": "A",
+        "3": "A",
+        "4": "A",
+        "5": "A",
+        "6": "A",
+        "7": "A",
+        "8": "A",
+        "9": "A",
+        "10": "A"
+      }
+    }
+  },
+  {
+    "model": "questionnaire.careerrecommendation",
+    "fields": {
+      "career_name": "Doctor",
+      "description": "Diagnose and treat patients to improve health.",
+      "criteria": {
+        "1": "B",
+        "2": "B",
+        "3": "B",
+        "4": "B",
+        "5": "B",
+        "6": "B",
+        "7": "B",
+        "8": "B",
+        "9": "B",
+        "10": "B"
+      }
+    }
+  },
+  {
+    "model": "questionnaire.careerrecommendation",
+    "fields": {
+      "career_name": "Graphic Designer",
+      "description": "Create visual concepts and designs for digital or print media.",
+      "criteria": {
+        "1": "C",
+        "2": "C",
+        "3": "C",
+        "4": "C",
+        "5": "A",
+        "6": "C",
+        "7": "C",
+        "8": "C",
+        "9": "B",
+        "10": "C"
+      }
+    }
+  },
+  {
+    "model": "questionnaire.careerrecommendation",
+    "fields": {
+      "career_name": "Teacher",
+      "description": "Instruct students and help them achieve academic success.",
+      "criteria": {
+        "1": "D",
+        "2": "D",
+        "3": "D",
+        "4": "D",
+        "5": "B",
+        "6": "D",
+        "7": "D",
+        "8": "C",
+        "9": "A",
+        "10": "D"
+      }
+    }
+  }
+]

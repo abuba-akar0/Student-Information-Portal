@@ -1,47 +1,56 @@
+from datetime import timezone
+
 from rest_framework import serializers
-from .models import *  # Importing all models
 from django.contrib.auth.models import User
-from rest_framework.authtoken.views import Token
+from rest_framework.authtoken.models import Token
 
-# As I have 3 models, hence I'm creating 3 serializers
-
-
-class ClientSerializer(serializers.ModelSerializer):
-    # Alternative to the 'perform_create' function in views.py, to automatically fills
-    # in the user field with the current/logged in user, use the code below.
-    # user = serializers.HiddenField(default=serializers.CurrentUserDefault())
-
-    class Meta:
-        model = Client  # Specify the model you want to serialize
-        fields = '__all__'  # Specify the fields you want to serialize
-
-
-class ProjectSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Project
-        fields = '__all__'
-
-
-class TodolistSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Todolist
-        fields = '__all__'
+from .models import *
 
 
 class UserSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(write_only=True, min_length=8, style={'input_type': 'password'})
+
     class Meta:
         model = User
-        fields = ['id', 'username', 'first_name',
-                  'last_name', 'email', 'password']
+        fields = ['id', 'username', 'first_name', 'last_name', 'email', 'password']
+        extra_kwargs = {'password': {'write_only': True, 'required': True}}
 
-        extra_kwargs = {'password': {  # This allows any API call to the /api/users to only show username and not the password
-            'write_only': True,
-            'required': True,
-        }}
-
-    def create(self, validated_data):  # This allows us to create a new user with a hashed password
+    def create(self, validated_data):
         user = User.objects.create_user(**validated_data)
-        # Creates a new token for every new user registered
-        Token.objects.create(user=user)
-
         return user
+
+
+class StudentSerializer(serializers.ModelSerializer):
+    user = UserSerializer()
+
+    class Meta:
+        model = Student
+        fields = ['id', 'user', 'name', 'date_of_birth', 'phone', 'email', 'date_created']
+
+    def validate_email(self, value):
+        if Student.objects.filter(email=value).exists():
+            raise serializers.ValidationError("A student with this email already exists.")
+        return value
+
+class ScholarshipSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Scholarship
+        fields = ['id', 'name', 'eligibility_criteria', 'deadline', 'description']
+
+    def validate_deadline(self, value):
+        if value < timezone.now().date():
+            raise serializers.ValidationError("Deadline cannot be in the past.")
+        return value
+
+
+class UniversitySerializer(serializers.ModelSerializer):
+    scholarship_available = ScholarshipSerializer()
+
+    class Meta:
+        model = University
+        fields = ['id', 'name', 'location', 'courses_offered', 'scholarship_available']
+
+    def validate_name(self, value):
+        if University.objects.filter(name=value).exists():
+            raise serializers.ValidationError("A university with this name already exists.")
+        return value

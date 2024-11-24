@@ -1,0 +1,86 @@
+/* CareerCounseling.css */
+
+.career-counseling-container {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #001e61;
+}
+
+.questions-container {
+  margin-bottom: 20px;
+}
+
+.question {
+  background-color: #f5fcff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.choice-label {
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.recommendations {
+  margin-top: 30px;
+}
+
+.recommendation-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.recommendation-card h3 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.recommendation-card p {
+  font-size: 1.1em;
+  color: #555;
+}

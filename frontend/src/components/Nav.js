@@ -1,42 +1,34 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styled from "styled-components";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { useCookies, Cookies } from "react-cookie";
-import { useHistory } from "react-router";
-
-// Components
-import Home from "./pages/Home";
-import Client from "./client/Client";
+import { Link } from "react-router-dom";
 
 const StyledMenu = styled.ul`
-  position: fixed;
-  top: 0;
-  right: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  padding: 0 1em;
-  align-items: center;
-  justify-content: center;
-  transition: all 300ms ease;
-  transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
-  opacity: ${({ open }) => (open ? "1" : "0")};
-  
-  background-color: rgb(20, 26, 31);
-  z-index: 9;
-  }
+    position: fixed;
+    top: 0;
+    right: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0 1em;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms ease;
+    transform: ${({open}) => (open ? "translateX(0)" : "translateX(100%)")};
+    opacity: ${({open}) => (open ? "1" : "0")};
+    background-color: rgb(0, 30, 97);
+    z-index: 9;
 
-  li {
-      padding: 2em 0
-  }
+    li {
+        padding: 2em 0;
+    }
 `;
 
 const StyledLink = styled(Link)`
   color: white;
   text-decoration: none;
-  font-size: 4rem;
+  font-size: 30px;
   transition: all 200ms linear;
 
   &:hover {
@@ -49,31 +41,28 @@ const StyledLink = styled(Link)`
 `;
 
 const Menu = ({ open, toggle }) => {
-  return (
-    <Router>
-      <StyledMenu open={open}>
-        <li>
-          <StyledLink to="/home" onClick={toggle}>
-            Home
-          </StyledLink>
-        </li>
-        <li>
-          <StyledLink to="/clients" onClick={toggle}>
-            Clients
-          </StyledLink>
-        </li>
-      </StyledMenu>
-
-      <Switch>
-        <Route path="/clients">
-          <Client />
-        </Route>
-        <Route path="/home">
-          <Home />
-        </Route>
-      </Switch>
-    </Router>
-  );
+    return (
+        <StyledMenu open={open}>
+            <li>
+                <StyledLink to="/home" onClick={toggle}>Home</StyledLink>
+            </li>
+            <li>
+                <StyledLink to="/career-counseling" onClick={toggle}>Career Counseling</StyledLink>
+            </li>
+            <li>
+                <StyledLink to="/universities" onClick={toggle}>University Search</StyledLink>
+            </li>
+            <li>
+                <StyledLink to="/scholarships" onClick={toggle}>Scholarship Search</StyledLink>
+            </li>
+            <li>
+                <StyledLink to="/about" onClick={toggle}>About</StyledLink>
+            </li>
+            <li>
+                <StyledLink to="/contact" onClick={toggle}>Contact</StyledLink>
+            </li>
+        </StyledMenu>
+    );
 };
 
 const StyledBurger = styled.button`
@@ -95,24 +84,16 @@ const StyledBurger = styled.button`
     outline: none;
   }
 
-  &:hover {
-    div:first-child,
-    div:nth-child(3) {
-      transform: ${({ open }) => (open ? "" : "scaleX(1)")};
-    }
-  }
-
   div {
     width: 2rem;
     height: 0.25rem;
-    background: ${({ open }) => (open ? "white" : "white")};
+    background: white;
     transition: all 300ms linear;
     position: relative;
     transform-origin: 1px;
 
     :first-child {
-      transform: ${({ open }) =>
-        open ? "rotate(45deg)" : "rotate(0) scaleX(0.5)"};
+      transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0)")};
     }
 
     :nth-child(2) {
@@ -120,21 +101,18 @@ const StyledBurger = styled.button`
     }
 
     :nth-child(3) {
-      transform: ${({ open }) =>
-        open ? "rotate(-45deg)" : "rotate(0) scaleX(0.7)"};
+      transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
     }
   }
 `;
 
-const Burger = ({ open, toggle }) => {
-  return (
-    <StyledBurger open={open} onClick={toggle}>
-      <div />
-      <div />
-      <div />
-    </StyledBurger>
-  );
-};
+const Burger = ({ open, toggle }) => (
+  <StyledBurger open={open} onClick={toggle}>
+    <div />
+    <div />
+    <div />
+  </StyledBurger>
+);
 
 const Nav = () => {
   const [open, setOpen] = React.useState(false);
@@ -144,10 +122,10 @@ const Nav = () => {
   };
 
   return (
-    <div>
-      <Burger open={open} toggle={toggle} />
-      <Menu open={open} toggle={toggle} />
-    </div>
+      <div>
+        <Burger open={open} toggle={toggle} />
+        <Menu open={open} toggle={toggle} />
+      </div>
   );
 };
 
