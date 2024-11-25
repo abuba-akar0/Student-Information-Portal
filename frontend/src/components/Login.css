@@ -84,19 +84,19 @@ body {
 /* Add this CSS for the animated heading */
 @keyframes colorChange {
   0% {
-    color: #ef6565;
+    color: #fdc5c5;
   }
   25% {
-    color: #61e861;
+    color: #affbaf;
   }
   50% {
-    color: #5151ec;
+    color: #ababfa;
   }
   75% {
-    color: #f457f4;
+    color: #ffe1ff;
   }
   100% {
-    color: #0f8bff;
+    color: #b2d7fd;
   }
 }
 
