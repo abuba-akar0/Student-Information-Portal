@@ -1,29 +1,17 @@
-from rest_framework import viewsets
-from universities.models import Course, Grade, Attendance, University, Program
-from universities.serializers import (CourseSerializer, GradeSerializer,
-                                      AttendanceSerializer, UniversitySerializer, ProgramSerializer)
+# universities/views.py
+from rest_framework import generics
+from .models import University
+from .serializers import UniversitySerializer
 
 
-class UniversityViewSet(viewsets.ModelViewSet):
+class UniversityListView(generics.ListCreateAPIView):
     queryset = University.objects.all()
     serializer_class = UniversitySerializer
 
-
-class ProgramViewSet(viewsets.ModelViewSet):
-    queryset = Program.objects.all()
-    serializer_class = ProgramSerializer
-
-
-class CourseViewSet(viewsets.ModelViewSet):
-    serializer_class = CourseSerializer
-    queryset = Course.objects.all()
-
-
-class GradeViewSet(viewsets.ModelViewSet):
-    serializer_class = GradeSerializer
-    queryset = Grade.objects.all()
-
-
-class AttendanceViewSet(viewsets.ModelViewSet):
-    serializer_class = AttendanceSerializer
-    queryset = Attendance.objects.all()
+    def get_queryset(self):
+        query = self.request.query_params.get('q', None)  # Get search query from request
+        if query:
+            return University.objects.filter(
+                name__icontains=query  # Case-insensitive search by name
+            )
+        return University.objects.all()

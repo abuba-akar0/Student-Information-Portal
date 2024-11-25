@@ -36,6 +36,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),  # Include URLs from the api app
     path('questionnaire/', include('questionnaire.urls')),  # Include URLs from the questionnaire app
+    path('universities/', include('universities.urls')),  # Include URLs from the universities app
+    path('scholarships/', include('scholarships.urls')),  # Include URLs from the students app
     path('auth/', include('rest_framework.urls')),  # Include default auth URLs
     path('auth/token/', CustomAuthToken.as_view(), name='auth-token'),  # Custom auth token view
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),

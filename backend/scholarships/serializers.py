@@ -1,6 +1,6 @@
+# backend/scholarships/serializers.py
 from rest_framework import serializers
-from scholarships.models import Scholarship
-
+from .models import Scholarship
 
 class ScholarshipSerializer(serializers.ModelSerializer):
     class Meta:

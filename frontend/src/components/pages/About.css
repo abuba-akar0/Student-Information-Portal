@@ -1,0 +1,47 @@
+.about-container {
+    margin-top: 40px;
+    color: white;
+    background-color: rgb(0, 30, 97);
+    padding: 40px;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align all text */
+}
+
+.about-paragraph {
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+}
+
+.about-hr {
+    background-color: white;
+    height: 1px;
+    border: none;
+    margin: 0 auto; /* Center align the horizontal rule */
+}
+
+.about-text {
+    color: lightgray;
+    text-align: left;
+    padding: 20px;
+}
+
+.about-text h2 {
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.about-text ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.contact-link {
+    color: lightblue;
+    text-align: center; /* Center align the contact link */
+}

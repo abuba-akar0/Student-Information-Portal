@@ -2,12 +2,12 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Login from "./components/Login";
-import UniversitySearch from "./components/pages/UniversitySearch";
-import ScholarshipSearch from "./components/pages/ScholarshipSearch";
+import Universities from "./components/pages/University";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Nav from "./components/Nav";
 import CareerCounseling from "./components/pages/CareerCounseling";
+import ScholarshipList from "./components/pages/ScholarshipList";
 
 const App = () => {
   return (
@@ -26,8 +26,8 @@ const MainApp = () => (
     <Switch>
       <Route path="/home" component={Home} />
       <Route path="/career-counseling" component={CareerCounseling} />
-      <Route path="/university-search" component={UniversitySearch} />
-      <Route path="/scholarship-search" component={ScholarshipSearch} />
+      <Route path="/universities" component={Universities} />
+      <Route path="/scholarships" component={ScholarshipList} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
     </Switch>

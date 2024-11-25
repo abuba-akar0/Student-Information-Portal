@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'scholarships',
     'api.apps.ApiConfig',
     'drf_yasg',
+    'requests',
 ]
 
 MIDDLEWARE = [

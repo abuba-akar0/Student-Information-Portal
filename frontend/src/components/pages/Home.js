@@ -224,6 +224,19 @@ const Home = () => {
             <ListItem>University and Scholarship Information</ListItem>
             <ListItem>Career Recommendations</ListItem>
           </ListGroup>
+
+          {/* Statistics */}
+          <SectionTitle>Statistics</SectionTitle>
+          <div className="statistics-section">
+            <div className="statistic">
+              <h3>1000+</h3>
+              <p>Scholarships Available</p>
+            </div>
+            <div className="statistic">
+              <h3>500+</h3>
+              <p>Universities Listed</p>
+            </div>
+          </div>
         </MainContent>
       </Main>
       <Footer>

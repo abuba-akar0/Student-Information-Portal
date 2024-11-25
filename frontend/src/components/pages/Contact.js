@@ -7,7 +7,10 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(name, email, message);
+        console.log("Name: ", name);
+        console.log("Email: ", email);
+        console.log("Message: ", message
+        );
     };
 
     const containerStyle = {

@@ -1,10 +1,11 @@
 from django.db import models
 
+
 class Scholarship(models.Model):
-    name = models.CharField(max_length=128)
-    eligibility_criteria = models.TextField()
-    deadline = models.DateField()
+    title = models.CharField(max_length=255)
     description = models.TextField()
+    website = models.URLField()
+    # Removed deadline and country fields
 
     def __str__(self):
-        return self.name
+        return self.title

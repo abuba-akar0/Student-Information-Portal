@@ -1,0 +1,607 @@
+[
+    {
+        "title": "DAAD Scholarships for Postgraduate Students",
+        "description": "The DAAD scholarships offer financial support for students from developing countries to study in Germany.",
+        "website": "https://www.daad.de"
+    },
+    {
+        "title": "Commonwealth Scholarships",
+        "description": "The Commonwealth Scholarships are awarded to students from developing countries to pursue postgraduate study in the UK.",
+        "website": "https://www.acu.ac.uk"
+    },
+    {
+        "title": "Chevening Scholarships",
+        "description": "Chevening Scholarships offer full financial support for students to study a master's degree at any UK university.",
+        "website": "https://www.chevening.org"
+    },
+    {
+        "title": "Eiffel Excellence Scholarship Programme",
+        "description": "The Eiffel Scholarship is awarded to international students to study in France at master's or doctoral level.",
+        "website": "https://www.campusfrance.org"
+    },
+    {
+        "title": "Fulbright Program",
+        "description": "The Fulbright Program offers scholarships for graduate students, young professionals, and artists to study in the United States.",
+        "website": "https://foreign.fulbrightonline.org"
+    },
+    {
+        "title": "University of Melbourne International Scholarships",
+        "description": "The University of Melbourne offers various scholarships to international students for both undergraduate and graduate programs.",
+        "website": "https://www.unimelb.edu.au"
+    },
+    {
+        "title": "MIT Scholarships",
+        "description": "The Massachusetts Institute of Technology (MIT) offers full-ride scholarships for talented students from all backgrounds.",
+        "website": "https://www.mit.edu"
+    },
+    {
+        "title": "Rotary Peace Fellowships",
+        "description": "The Rotary Peace Fellowship offers full funding for master's degree and professional development certificate programs in peace studies.",
+        "website": "https://www.rotary.org"
+    },
+    {
+        "title": "Yale University Scholarships",
+        "description": "Yale offers need-based scholarships for undergraduate international students from any country.",
+        "website": "https://www.yale.edu"
+    },
+    {
+        "title": "Stanford University Scholarships",
+        "description": "Stanford University provides financial aid to international students based on need, ensuring that students from all backgrounds have access.",
+        "website": "https://www.stanford.edu"
+    },
+    {
+        "title": "University of Oxford Scholarships",
+        "description": "Oxford offers a wide range of scholarships and funding options for international students to study at both undergraduate and graduate levels.",
+        "website": "https://www.ox.ac.uk"
+    },
+    {
+        "title": "Boren Awards",
+        "description": "The Boren Awards provide scholarships for U.S. students to study in countries that are critical to U.S. interests.",
+        "website": "https://www.borenawards.org"
+    },
+    {
+        "title": "Rhodes Scholarship",
+        "description": "The Rhodes Scholarship is one of the oldest and most prestigious international fellowship programs, offering scholarships for graduate study at the University of Oxford.",
+        "website": "https://www.rhodeshouse.ox.ac.uk"
+    },
+    {
+        "title": "Gates Cambridge Scholarship",
+        "description": "The Gates Cambridge Scholarship is for outstanding students from outside the UK to pursue a postgraduate degree at the University of Cambridge.",
+        "website": "https://www.gatescambridge.org"
+    },
+    {
+        "title": "American University of Sharjah Scholarships",
+        "description": "The American University of Sharjah provides full-tuition scholarships for high-achieving international students to pursue undergraduate programs.",
+        "website": "https://www.aus.edu"
+    },
+    {
+        "title": "New Zealand Scholarships",
+        "description": "The New Zealand Scholarships offer students from eligible countries the opportunity to study in New Zealand at undergraduate and postgraduate levels.",
+        "website": "https://www.mfat.govt.nz"
+    },
+    {
+        "title": "Wellesley College Scholarships",
+        "description": "Wellesley College offers scholarships to international students who wish to pursue undergraduate studies.",
+        "website": "https://www.wellesley.edu"
+    },
+    {
+        "title": "Purdue University Scholarships",
+        "description": "Purdue University offers merit-based scholarships for international students to pursue undergraduate programs in the United States.",
+        "website": "https://www.purdue.edu"
+    },
+    {
+        "title": "Johns Hopkins University Scholarships",
+        "description": "Johns Hopkins University offers financial aid for undergraduate and graduate students from all over the world.",
+        "website": "https://www.jhu.edu"
+    },
+    {
+        "title": "University of Toronto Scholarships",
+        "description": "The University of Toronto offers scholarships for both undergraduate and graduate students, based on merit and financial need.",
+        "website": "https://www.utoronto.ca"
+    },
+    {
+        "title": "McGill University Scholarships",
+        "description": "McGill University provides scholarships for international students pursuing undergraduate and graduate programs.",
+        "website": "https://www.mcgill.ca"
+    },
+    {
+        "title": "University of Sydney Scholarships",
+        "description": "The University of Sydney offers a wide range of scholarships for international students at both undergraduate and postgraduate levels.",
+        "website": "https://www.sydney.edu.au"
+    },
+    {
+        "title": "Australian National University Scholarships",
+        "description": "ANU provides scholarships for international students in various undergraduate and graduate programs, covering tuition fees and living expenses.",
+        "website": "https://www.anu.edu.au"
+    },
+    {
+        "title": "University of British Columbia Scholarships",
+        "description": "UBC offers scholarships for international students at the undergraduate level based on academic merit and financial need.",
+        "website": "https://www.ubc.ca"
+    },
+    {
+        "title": "Princeton University Scholarships",
+        "description": "Princeton provides need-based financial aid to international students, covering tuition, fees, room, and board.",
+        "website": "https://www.princeton.edu"
+    },
+    {
+        "title": "University of Warwick Scholarships",
+        "description": "Warwick University offers scholarships for postgraduate international students across various fields of study.",
+        "website": "https://warwick.ac.uk"
+    },
+    {
+        "title": "Harvard University Scholarships",
+        "description": "Harvard University offers a wide range of scholarships and financial aid to international students based on need.",
+        "website": "https://www.harvard.edu"
+    },
+    {
+        "title": "University of Copenhagen Scholarships",
+        "description": "The University of Copenhagen offers scholarships for international students wishing to pursue a master's program in Denmark.",
+        "website": "https://www.ku.dk"
+    },
+    {
+        "title": "Uppsala University Scholarships",
+        "description": "Uppsala University offers scholarships for non-EU/EEA students applying for master's programs in Sweden.",
+        "website": "https://www.uu.se"
+    },
+    {
+        "title": "University of Edinburgh Scholarships",
+        "description": "The University of Edinburgh offers a wide range of scholarships for postgraduate students, including the Edinburgh Global Research Scholarships.",
+        "website": "https://www.ed.ac.uk"
+    },
+    {
+        "title": "McMaster University Scholarships",
+        "description": "McMaster offers merit-based scholarships for international students at undergraduate and graduate levels.",
+        "website": "https://www.mcmaster.ca"
+    },
+    {
+        "title": "London School of Economics Scholarships",
+        "description": "LSE offers a number of scholarships for graduate students from all over the world, based on financial need and academic excellence.",
+        "website": "https://www.lse.ac.uk"
+    },
+    {
+        "title": "Durham University Scholarships",
+        "description": "Durham University offers postgraduate scholarships for international students, including merit-based and need-based awards.",
+        "website": "https://www.dur.ac.uk"
+    },
+    {
+        "title": "University of Queensland Scholarships",
+        "description": "The University of Queensland provides a range of scholarships for international students to study undergraduate and postgraduate programs.",
+        "website": "https://www.uq.edu.au"
+    },
+    {
+        "title": "University of Auckland Scholarships",
+        "description": "The University of Auckland offers scholarships for international students across a wide range of undergraduate and postgraduate programs.",
+        "website": "https://www.auckland.ac.nz"
+    },
+    {
+        "title": "Bocconi University Scholarships",
+        "description": "Bocconi University offers merit-based scholarships to international students applying for undergraduate and graduate programs in Italy.",
+        "website": "https://www.unibocconi.eu"
+    },
+    {
+        "title": "Friedrich Ebert Stiftung Scholarships",
+        "description": "The Friedrich Ebert Foundation offers scholarships to international students pursuing higher education in Germany.",
+        "website": "https://www.fes.de"
+    },
+    {
+        "title": "University of Texas Scholarships",
+        "description": "The University of Texas offers a range of scholarships for international students, including merit-based and need-based funding.",
+        "website": "https://www.utexas.edu"
+    },
+    {
+        "title": "University of California, Berkeley Scholarships",
+        "description": "UC Berkeley provides financial aid and scholarships to international students based on academic merit and financial need.",
+        "website": "https://www.berkeley.edu"
+    },
+    {
+        "title": "Erasmus Mundus Scholarships",
+        "description": "Erasmus Mundus offers scholarships to students from non-EU countries for studying at various universities in Europe.",
+        "website": "https://www.eacea.ec.europa.eu"
+    },
+    {
+        "title": "ETH Zurich Scholarships",
+        "description": "ETH Zurich offers scholarships for international students in the fields of engineering, science, and technology.",
+        "website": "https://www.ethz.ch"
+    },
+    {
+        "title": "University of Amsterdam Scholarships",
+        "description": "The University of Amsterdam offers scholarships for international students applying to its graduate programs.",
+        "website": "https://www.uva.nl"
+    },
+    {
+        "title": "University of St Andrews Scholarships",
+        "description": "St Andrews offers scholarships for postgraduate students from outside the UK, including research-based programs.",
+        "website": "https://www.st-andrews.ac.uk"
+    },
+    {
+        "title": "University of California, Los Angeles (UCLA) Scholarships",
+        "description": "UCLA offers financial aid and scholarships for international students based on both merit and need.",
+        "website": "https://www.ucla.edu"
+    },
+    {
+        "title": "Peking University Scholarships",
+        "description": "Peking University offers full scholarships for international students in various programs, including undergraduate, master's, and Ph.D.",
+        "website": "https://www.pku.edu.cn"
+    },
+    {
+        "title": "University of Manchester Scholarships",
+        "description": "The University of Manchester offers scholarships to international postgraduate students, including merit-based and needs-based awards.",
+        "website": "https://www.manchester.ac.uk"
+    },
+    {
+        "title": "University of California, San Diego (UCSD) Scholarships",
+        "description": "UCSD offers a variety of scholarships and financial aid options for international students.",
+        "website": "https://www.ucsd.edu"
+    },
+    {
+        "title": "Karolinska Institute Scholarships",
+        "description": "Karolinska Institute offers scholarships for non-EU students to study at the master's level in Sweden.",
+        "website": "https://ki.se"
+    },
+    {
+        "title": "University of Zurich Scholarships",
+        "description": "The University of Zurich offers scholarships for international students pursuing master's programs.",
+        "website": "https://www.uzh.ch"
+    },
+    {
+        "title": "Singapore International Graduate Award",
+        "description": "The SINGA Award is offered to international students to pursue PhD programs in Singapore.",
+        "website": "https://www.singa.a-star.edu.sg"
+    },
+    {
+        "title": "Kyoto University Scholarships",
+        "description": "Kyoto University provides scholarships for international students to pursue undergraduate, master's, and PhD programs in Japan.",
+        "website": "https://www.kyoto-u.ac.jp"
+    },
+    {
+        "title": "Humboldt University Scholarships",
+        "description": "Humboldt University offers scholarships to international students for research programs and postgraduate studies.",
+        "website": "https://www.hu-berlin.de"
+    },
+    {
+        "title": "Stockholm University Scholarships",
+        "description": "Stockholm University offers scholarships to non-EU students for master's programs in Sweden.",
+        "website": "https://www.su.se"
+    },
+    {
+        "title": "University of Hong Kong Scholarships",
+        "description": "The University of Hong Kong provides financial support and scholarships for both undergraduate and graduate international students.",
+        "website": "https://www.hku.hk"
+    },
+    {
+        "title": "University of Virginia Scholarships",
+        "description": "The University of Virginia offers merit-based and need-based scholarships to international students in various programs.",
+        "website": "https://www.virginia.edu"
+    },
+    {
+        "title": "Aga Khan Foundation Scholarships",
+        "description": "The Aga Khan Foundation offers scholarships for postgraduate students from developing countries who are pursuing studies in any field.",
+        "website": "https://www.akdn.org"
+    },
+    {
+        "title": "University of Warwick International Scholarships",
+        "description": "Warwick offers scholarships for international postgraduate students, covering tuition and living expenses.",
+        "website": "https://warwick.ac.uk"
+    },
+    {
+        "title": "National University of Singapore Scholarships",
+        "description": "NUS provides merit-based scholarships for international students pursuing undergraduate and graduate studies.",
+        "website": "https://www.nus.edu.sg"
+    },
+    {
+        "title": "University of Berlin Scholarships",
+        "description": "The University of Berlin provides scholarships for international students applying for postgraduate programs.",
+        "website": "https://www.hu-berlin.de"
+    },
+    {
+        "title": "University of Queensland International Scholarships",
+        "description": "The University of Queensland offers merit-based scholarships for international students pursuing undergraduate and postgraduate studies.",
+        "website": "https://www.uq.edu.au"
+    },
+    {
+        "title": "University of Copenhagen International Scholarships",
+        "description": "The University of Copenhagen offers scholarships for international students applying for master's programs in Denmark.",
+        "website": "https://www.ku.dk"
+    },
+    {
+        "title": "University of Toronto Scholarships",
+        "description": "The University of Toronto offers a range of scholarships and awards for international students at the undergraduate and graduate levels.",
+        "website": "https://www.utoronto.ca"
+    },
+    {
+        "title": "Vienna University of Technology Scholarships",
+        "description": "The Vienna University of Technology offers scholarships for non-EU students pursuing engineering and technology programs.",
+        "website": "https://www.tuwien.ac.at"
+    },
+    {
+        "title": "Trinity College Dublin Scholarships",
+        "description": "Trinity College Dublin provides scholarships for postgraduate students from outside Ireland across various disciplines.",
+        "website": "https://www.tcd.ie"
+    },
+    {
+        "title": "University of Tokyo Scholarships",
+        "description": "The University of Tokyo offers scholarships for international students pursuing postgraduate programs, covering tuition and living expenses.",
+        "website": "https://www.u-tokyo.ac.jp"
+    },
+    {
+        "title": "Columbia University Scholarships",
+        "description": "Columbia University provides financial aid and scholarships to international students based on both merit and need.",
+        "website": "https://www.columbia.edu"
+    },
+    {
+        "title": "University of Edinburgh International Scholarships",
+        "description": "The University of Edinburgh offers a range of scholarships for international postgraduate students in various disciplines.",
+        "website": "https://www.ed.ac.uk"
+    },
+    {
+        "title": "University of Melbourne Scholarships",
+        "description": "The University of Melbourne provides scholarships for international students pursuing undergraduate and graduate studies in various fields.",
+        "website": "https://www.unimelb.edu.au"
+    },
+    {
+        "title": "University of Gothenburg Scholarships",
+        "description": "The University of Gothenburg offers scholarships to international students applying for master's programs in Sweden.",
+        "website": "https://www.gu.se"
+    },
+    {
+        "title": "University of Sydney International Scholarships",
+        "description": "The University of Sydney offers a variety of scholarships for international students pursuing both undergraduate and postgraduate programs.",
+        "website": "https://www.sydney.edu.au"
+    },
+    {
+        "title": "University of Glasgow Scholarships",
+        "description": "The University of Glasgow offers scholarships for international students across a variety of academic disciplines.",
+        "website": "https://www.gla.ac.uk"
+    },
+    {
+        "title": "University of Tokyo Research Scholarships",
+        "description": "The University of Tokyo offers research scholarships for international students in various doctoral programs.",
+        "website": "https://www.u-tokyo.ac.jp"
+    },
+    {
+        "title": "Cambridge International Scholarships",
+        "description": "The University of Cambridge offers prestigious scholarships for international students pursuing postgraduate research programs.",
+        "website": "https://www.cam.ac.uk"
+    },
+    {
+        "title": "Monash University Scholarships",
+        "description": "Monash University offers a wide range of scholarships for international students at both undergraduate and postgraduate levels.",
+        "website": "https://www.monash.edu"
+    },
+    {
+        "title": "McGill University Scholarships",
+        "description": "McGill University offers merit-based scholarships and financial aid for international students pursuing undergraduate and graduate degrees.",
+        "website": "https://www.mcgill.ca"
+    },
+    {
+        "title": "University of Hong Kong Scholarships",
+        "description": "The University of Hong Kong provides scholarships for international students to pursue undergraduate and postgraduate programs.",
+        "website": "https://www.hku.hk"
+    },
+    {
+        "title": "Boston University Scholarships",
+        "description": "Boston University offers a range of scholarships for international students based on academic excellence and financial need.",
+        "website": "https://www.bu.edu"
+    },
+    {
+        "title": "Princeton University Graduate Scholarships",
+        "description": "Princeton University offers financial aid and graduate scholarships for international students pursuing doctoral programs.",
+        "website": "https://www.princeton.edu"
+    },
+    {
+        "title": "Humboldt University Scholarships",
+        "description": "Humboldt University in Berlin provides a variety of scholarships for international students, particularly in research and postgraduate programs.",
+        "website": "https://www.hu-berlin.de"
+    },
+    {
+        "title": "London School of Economics Scholarships",
+        "description": "LSE offers a number of scholarships for international students pursuing master's programs, including merit-based and need-based options.",
+        "website": "https://www.lse.ac.uk"
+    },
+    {
+        "title": "New York University Scholarships",
+        "description": "NYU offers scholarships and financial aid to international students based on merit and need for both undergraduate and graduate studies.",
+        "website": "https://www.nyu.edu"
+    },
+    {
+        "title": "University of California, Berkeley Scholarships",
+        "description": "UC Berkeley provides scholarships for international students based on academic excellence and financial need.",
+        "website": "https://www.berkeley.edu"
+    },
+    {
+        "title": "University of Southern California Scholarships",
+        "description": "USC offers merit-based and need-based scholarships to international students pursuing undergraduate and graduate studies.",
+        "website": "https://www.usc.edu"
+    },
+    {
+        "title": "Princeton University Scholarships",
+        "description": "Princeton offers need-based financial aid to international students at all levels of study, covering tuition, fees, and living expenses.",
+        "website": "https://www.princeton.edu"
+    },
+    {
+        "title": "Leiden University Scholarships",
+        "description": "Leiden University offers scholarships for international students pursuing graduate programs in the Netherlands.",
+        "website": "https://www.leiden.edu"
+    },
+    {
+        "title": "University of California, Santa Barbara Scholarships",
+        "description": "UC Santa Barbara provides scholarships for international students based on academic excellence and financial need.",
+        "website": "https://www.ucsb.edu"
+    },
+    {
+        "title": "University of Mannheim Scholarships",
+        "description": "University of Mannheim offers scholarships for international students pursuing undergraduate and graduate programs in Germany.",
+        "website": "https://www.uni-mannheim.de"
+    },
+    {
+        "title": "University of Vienna Scholarships",
+        "description": "The University of Vienna offers scholarships for international students pursuing master's and doctoral programs.",
+        "website": "https://www.univie.ac.at"
+    },
+    {
+        "title": "ETH Zurich International Scholarships",
+        "description": "ETH Zurich offers a number of scholarships for non-EU students pursuing master's programs in Switzerland.",
+        "website": "https://www.ethz.ch"
+    },
+    {
+        "title": "Eindhoven University of Technology Scholarships",
+        "description": "Eindhoven University offers scholarships to international students pursuing master's programs in engineering and technology.",
+        "website": "https://www.tue.nl"
+    },
+    {
+        "title": "Rotterdam School of Management Scholarships",
+        "description": "RSM offers scholarships to international students pursuing an MBA or Master’s program in business and management.",
+        "website": "https://www.rsm.nl"
+    },
+    {
+        "title": "University of Barcelona Scholarships",
+        "description": "The University of Barcelona offers scholarships for international students pursuing postgraduate and doctoral programs.",
+        "website": "https://www.ub.edu"
+    },
+    {
+        "title": "Lund University Scholarships",
+        "description": "Lund University offers scholarships for international students applying to its master's programs in Sweden.",
+        "website": "https://www.lu.se"
+    },
+    {
+        "title": "Zhejiang University Scholarships",
+        "description": "Zhejiang University provides scholarships for international students pursuing undergraduate and postgraduate programs in China.",
+        "website": "https://www.zju.edu.cn"
+    },
+    {
+        "title": "University of Wisconsin-Madison Scholarships",
+        "description": "UW-Madison offers scholarships to international students at both undergraduate and graduate levels based on merit and need.",
+        "website": "https://www.wisc.edu"
+    },
+    {
+        "title": "University of Miami Scholarships",
+        "description": "The University of Miami offers merit-based and need-based scholarships for international students.",
+        "website": "https://www.miami.edu"
+    },
+    {
+        "title": "University of Geneva Scholarships",
+        "description": "The University of Geneva offers scholarships for international students pursuing graduate studies in Switzerland.",
+        "website": "https://www.unige.ch"
+    },
+    {
+        "title": "University of Leicester Scholarships",
+        "description": "The University of Leicester offers scholarships for international students pursuing undergraduate and postgraduate programs.",
+        "website": "https://www.le.ac.uk"
+    },
+    {
+        "title": "Stanford University Scholarships",
+        "description": "Stanford University provides need-based scholarships for international students, covering full tuition and living expenses.",
+        "website": "https://www.stanford.edu"
+    },
+    {
+        "title": "The World Bank Group Scholarship Program",
+        "description": "The World Bank Group offers scholarships to students from developing countries for postgraduate study in areas related to economics, development, and public policy.",
+        "website": "https://www.worldbank.org/en/programs/scholarships"
+    },
+    {
+        "title": "Yale University Scholarships",
+        "description": "Yale University offers need-based scholarships for undergraduate international students who demonstrate financial need and exceptional academic merit.",
+        "website": "https://admissions.yale.edu/financial-aid"
+    },
+    {
+        "title": "Korean Government Scholarship Program (KGSP)",
+        "description": "The South Korean government provides scholarships for undergraduate and graduate students from around the world to study in Korean universities.",
+        "website": "http://www.studyinkorea.go.kr"
+    },
+    {
+        "title": "Australia Awards Scholarships",
+        "description": "These scholarships support students from developing countries in the Indo-Pacific region to study in Australian universities and vocational education institutions.",
+        "website": "https://www.dfat.gov.au/people-to-people/australia-awards"
+    },
+    {
+        "title": "The United Nations University Scholarships",
+        "description": "UNU offers scholarships to students pursuing doctoral and master's programs in sustainability, governance, and global development.",
+        "website": "https://unu.edu/admissions"
+    },
+    {
+        "title": "Rotary Peace Fellowship",
+        "description": "The Rotary Peace Fellowship provides funding for a master’s degree or professional development certificate in peace and conflict resolution at one of the Rotary Peace Centers.",
+        "website": "https://www.rotary.org/en/our-programs/peace-fellowships"
+    },
+    {
+        "title": "JICA Scholarship Program",
+        "description": "The Japan International Cooperation Agency (JICA) offers scholarships for international students to pursue master's and Ph.D. degrees in Japan.",
+        "website": "https://www.jica.go.jp/english/our_work/types_of_assistance/scholarships/index.html"
+    },
+    {
+        "title": "Emory University Scholars Program",
+        "description": "The Emory Scholars Program provides full-ride scholarships, leadership development, and global learning opportunities for top students pursuing undergraduate studies at Emory University.",
+        "website": "https://apply.emory.edu/apply/scholars.php"
+    },
+    {
+        "title": "Boston University Global Development Scholarship",
+        "description": "The Global Development Scholarship at Boston University offers full funding for international students interested in studying global health and development.",
+        "website": "https://www.bu.edu/globaldevelopment/scholarships/"
+    },
+    {
+        "title": "International Leader of Tomorrow Award",
+        "description": "The University of British Columbia offers the International Leader of Tomorrow Award to students from outside Canada who demonstrate leadership skills and academic excellence.",
+        "website": "https://you.ubc.ca/admissions/international-students/international-leader-of-tomorrow-award/"
+    },
+    {
+        "title": "Vanderbilt University Scholarships",
+        "description": "Vanderbilt University offers merit-based scholarships for undergraduate international students with exceptional academic performance.",
+        "website": "https://admissions.vanderbilt.edu/financialaid/"
+    },
+    {
+        "title": "INSEAD Scholarships for International Students",
+        "description": "INSEAD offers multiple scholarships to support students who demonstrate financial need or have exceptional academic or professional achievements for their MBA program.",
+        "website": "https://www.insead.edu/master-programmes/financial-aid"
+    },
+    {
+        "title": "UCT Scholarships for African Students",
+        "description": "The University of Cape Town offers a wide range of scholarships for African students pursuing undergraduate and graduate degrees at UCT.",
+        "website": "https://www.uct.ac.za/main/scholarships"
+    },
+    {
+        "title": "Taiwan Scholarship Program",
+        "description": "The Taiwan Scholarship Program offers international students funding to study in Taiwan for undergraduate, graduate, or Ph.D. programs.",
+        "website": "https://www.studyintaiwan.org/"
+    },
+    {
+        "title": "The University of Hong Kong (HKU) Scholarships",
+        "description": "The University of Hong Kong offers a variety of scholarships to international students, including merit-based and need-based options for undergraduate and postgraduate programs.",
+        "website": "https://www.hku.hk/admission/undergraduate/scholarships"
+    },
+    {
+        "title": "Lund University Global Scholarship Programme",
+        "description": "Lund University in Sweden offers scholarships to academically talented students from outside the EU/EEA who are applying for a master’s program.",
+        "website": "https://www.lu.se/lubas/i-uoh-lu-SCHL"
+    },
+    {
+        "title": "The University of California Presidential Scholarships",
+        "description": "The UC system offers Presidential Scholarships to top incoming undergraduate students based on academic excellence and leadership potential.",
+        "website": "https://admission.universityofcalifornia.edu/admission-requirements/admission-choices/presidential-scholarship.html"
+    },
+    {
+        "title": "Oxford Centre for Islamic Studies Scholarships",
+        "description": "The Oxford Centre for Islamic Studies offers scholarships to graduate students pursuing courses at the University of Oxford in various fields related to Islamic studies.",
+        "website": "https://www.oxcis.ac.uk/scholarships"
+    },
+    {
+        "title": "Harvard University Scholarships for International Students",
+        "description": "Harvard University provides need-based scholarships to international students, helping to make education affordable regardless of financial background.",
+        "website": "https://college.harvard.edu/financial-aid"
+    },
+    {
+        "title": "University of Toronto International Scholar Award",
+        "description": "The University of Toronto offers the International Scholar Award to undergraduate students demonstrating academic excellence from outside Canada.",
+        "website": "https://future.utoronto.ca/finances/international-scholar-award/"
+    },
+    {
+        "title": "Peking University Scholarships for International Students",
+        "description": "Peking University offers a wide range of scholarships for international students who wish to pursue their degree programs at this top Chinese university.",
+        "website": "https://www.isd.pku.edu.cn/en/scholarships/"
+    },
+    {
+        "title": "University of Amsterdam International Student Scholarship",
+        "description": "The University of Amsterdam offers scholarships to international students who show outstanding academic performance and wish to study at the university.",
+        "website": "https://www.uva.nl/en/education/master-s/master-s-programmes/fees-and-funding"
+    }
+]

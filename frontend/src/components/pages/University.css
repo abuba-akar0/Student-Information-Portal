@@ -1,0 +1,97 @@
+/* university.css */
+
+/* Container styling */
+.University-container {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Header styling */
+.university-header {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+/* Search bar styling */
+.search-input {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-color: #0f8bff;
+  background-color: #deeff8;
+}
+
+/* University list styling */
+.university-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* University card styling */
+.university-card {
+  background-color: #ffffff;
+  border: 1px solid #5ac0f4;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.university-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 2, 0.1);
+  background-color: #ecfcff;
+}
+
+/* University card header styling */
+.university-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #007bff;
+    text-align: center;
+}
+
+/* University card details styling */
+.university-card p {
+  margin: 5px 0;
+  color: #555;
+  text-align: center;
+}
+
+.university-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.university-card a:hover {
+  text-decoration: underline;
+  text-decoration-color: #5151ec;
+}
+
+/* Loading and error message styling */
+p {
+  text-align: center;
+  color: #999;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #001e61;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 20px;
+}
