@@ -70,8 +70,8 @@ The **Student Information Portal** is a web-based application designed to assist
 
 #### Clone the Repository:
 ```bash copy
-git clone https://github.com/your-username/student-information-portal.git
-cd student-information-portal 
+git clone https://github.com/abuba-akar0/Student-Information-Portal.git
+cd Student-Information-Portal
 ```
 
 #### Start the Application:
