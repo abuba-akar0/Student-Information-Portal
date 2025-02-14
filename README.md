@@ -47,7 +47,7 @@ The **Student Information Portal** is a web-based application designed to assist
 ## 📊 Non-Functional Requirements
 
 ### User Experience
-- **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
+- **Responsive Design**: Fully optimized for desktop.
 - **Intuitive Navigation**: Easy-to-use layout for all users.
 
 ### Security
