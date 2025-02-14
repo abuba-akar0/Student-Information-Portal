@@ -62,9 +62,10 @@ The **Student Information Portal** is a web-based application designed to assist
 ## 💻 Getting Started
 
 ### Prerequisites
-- **Node.js** (Frontend)
-- **Python 3.x** (Backend)
-- **Django**
+- **Node.js**
+- **React.js** (Frontend)
+- **Python 3.x**
+- **Django** (Backend)
 
 ### Installation
 
